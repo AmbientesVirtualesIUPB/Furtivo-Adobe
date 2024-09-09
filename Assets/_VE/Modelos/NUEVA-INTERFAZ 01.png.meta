@@ -1,0 +1,543 @@
+fileFormatVersion: 2
+guid: 71910f6332f461c428d8a0aa44b9b065
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1773
+        width: 828
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5817e11a1d2b444bba84fd562e0807c
+      internalID: -246422768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_2
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1110
+        width: 608
+        height: 785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052bfdc645d442846aaad748f9cc27b2
+      internalID: -54238411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1538
+        width: 660
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29a82e2ccf3ea049a1bb4c4980098c1
+      internalID: 728019510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_4
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1449
+        width: 242
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526ecc14affcb554992b8f02d301879a
+      internalID: -43195085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_5
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1395
+        width: 377
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4b4f92c46acfb4781301c5181b9f00
+      internalID: 116210423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_6
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1183
+        width: 214
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bad36a1561e9f841a23b4f50d8bf752
+      internalID: 552562523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_7
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1094
+        width: 652
+        height: 813
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 294, y: 294, z: 299, w: 439}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada762b7e909f3a458fd3fea059779ed
+      internalID: 1269988885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_10
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1237
+        width: 365
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 85, y: 20, z: 69, w: 26}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707b84062d985a14f98153f2ff8cc652
+      internalID: -1140614755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_11
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1101
+        width: 369
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 34, y: 21, z: 42, w: 29}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da2fe083c0fd3f41b9a945bd258d54c
+      internalID: 222597199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_12
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 916
+        width: 210
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6218c185fef2bf4b9203110d4563d0c
+      internalID: -299160244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_13
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 997
+        width: 426
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 70, y: 13, z: 53, w: 12}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76aedef4cd9a534aa0196d3634b5eb8
+      internalID: 1208643174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_14
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 816
+        width: 312
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceeb170c46fa9e54a856cd41028a8c0d
+      internalID: -708796502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_15
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 816
+        width: 308
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0277978a930d6d14ab80e12592d3255c
+      internalID: -897661606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_16
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 935
+        width: 426
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 44, y: 20, z: 57, w: 10}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d237aa85c0c49b44ac53f42eec4ee55
+      internalID: -667489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_17
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 763
+        width: 318
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 26, z: 0, w: 27}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34cddc2c397bd84c9bfff0681c73601
+      internalID: 2007789899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_18
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 565
+        width: 313
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755efa2a30a07524cad31c43d903e224
+      internalID: 1587836041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_19
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 565
+        width: 308
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c2bcd7c698cda4c9830f851a8354bc
+      internalID: 841792556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_20
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 38
+        width: 1009
+        height: 599
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 90, y: 75, z: 91, w: 81}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d33ebede2169b4e884c0a9057d416c
+      internalID: 1882093153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NUEVA-INTERFAZ 01_21
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 261
+        width: 757
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 166, y: 28, z: 274, w: 30}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b01e51313458574ab03078733bd8a6f
+      internalID: 1770204082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6af5e085a0628054c8ced5312a0af909
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NUEVA-INTERFAZ 01_5: 116210423
+      NUEVA-INTERFAZ 01_8: -47844936
+      NUEVA-INTERFAZ 01_16: -667489
+      NUEVA-INTERFAZ 01_1: 1753655057
+      NUEVA-INTERFAZ 01_3: 728019510
+      NUEVA-INTERFAZ 01_7: 1269988885
+      NUEVA-INTERFAZ 01_17: 2007789899
+      NUEVA-INTERFAZ 01_13: 1208643174
+      NUEVA-INTERFAZ 01_18: 1587836041
+      NUEVA-INTERFAZ 01_21: 1770204082
+      NUEVA-INTERFAZ 01_10: -1140614755
+      NUEVA-INTERFAZ 01_11: 222597199
+      NUEVA-INTERFAZ 01_14: -708796502
+      NUEVA-INTERFAZ 01_2: -54238411
+      NUEVA-INTERFAZ 01_19: 841792556
+      NUEVA-INTERFAZ 01_4: -43195085
+      NUEVA-INTERFAZ 01_20: 1882093153
+      NUEVA-INTERFAZ 01_15: -897661606
+      NUEVA-INTERFAZ 01_0: -246422768
+      NUEVA-INTERFAZ 01_12: -299160244
+      NUEVA-INTERFAZ 01_9: 459489866
+      NUEVA-INTERFAZ 01_6: 552562523
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

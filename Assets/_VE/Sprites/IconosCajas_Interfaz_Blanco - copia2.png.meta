@@ -1,0 +1,534 @@
+fileFormatVersion: 2
+guid: fe9281f1efb240e4c9466a8a7bf22dbe
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1611
+        width: 413
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3473b6f97846a04cb7e5a51fd089889
+      internalID: -1534384586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_1
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1697
+        width: 268
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6f0982396439c4eb1eb954b646cdb5
+      internalID: 580850593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_2
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1727
+        width: 226
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91992acb6c69796468e18f3577fbd4a0
+      internalID: 1873126746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_3
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1577
+        width: 458
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d7492f38559df459b98fa19588e961
+      internalID: 775630436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_4
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 1679
+        width: 291
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb6a0f73f652744b98a2b43f61f6cd9
+      internalID: -642284620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_6
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1183
+        width: 435
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 76, z: 0, w: 87}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9299a5ddce68a1489810f12d97bea7a
+      internalID: 2030720529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_7
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1090
+        width: 324
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 268, y: 156, z: 50, w: 265}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3625c82a5fb699b43b2dd5f194806a8f
+      internalID: 375625196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_8
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1285
+        width: 485
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4011567abcef064c9e4b17b5f3d14c0
+      internalID: -1066616368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1193
+        width: 262
+        height: 278
+      alignment: 9
+      pivot: {x: 0.4957157, y: 0.42732206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef83f04437fd47844adc98530ca37478
+      internalID: -1945345423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 844
+        width: 734
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 95, y: 46, z: 68, w: 70}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a363de92b9342840a5f0533b2665980
+      internalID: -1558957513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_12
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 946
+        width: 732
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 93, y: 35, z: 55, w: 70}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4150a9ca910889246b43a994c35f0b70
+      internalID: -1822447681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_13
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 643
+        width: 315
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 142, y: 95, z: 88, w: 158}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bf518f38bc04544b78ac06e127eb26
+      internalID: 1328975215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_14
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 418
+        width: 318
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 91, y: 65, z: 102, w: 124}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f633f7a99ccc545addf0938f6f7a46
+      internalID: -1808011897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_15
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 395
+        width: 377
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 178, y: 181, z: 177, w: 186}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f4fdf96dc17f74599f5e97c0a450c9
+      internalID: 153495566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_16
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 623
+        width: 572
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba74937799ccc8040aa2b2985e19fd25
+      internalID: -1814459165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 88
+        width: 751
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 411, y: 61, z: 321, w: 74}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0771f2bb7ec1e3343a6a2fe6e399a56b
+      internalID: -457080170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconosCajas_Interfaz_Blanco - copia2_18
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 14
+        width: 619
+        height: 583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 72, y: 71, z: 77, w: 72}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b43bb3eb29a094683c4d5248c505bc
+      internalID: 1503378288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 954986a67aaa9f14dbb8ff19587bb962
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IconosCajas_Interfaz_Blanco - copia2_16: -1814459165
+      IconosCajas_Interfaz_Blanco - copia2_5: -1977288657
+      IconosCajas_Interfaz_Blanco - copia2_9: 925824256
+      IconosCajas_Interfaz_Blanco - copia2_1: 580850593
+      IconosCajas_Interfaz_Blanco - copia2_18: 1503378288
+      IconosCajas_Interfaz_Blanco - copia2_17: -457080170
+      IconosCajas_Interfaz_Blanco - copia2_7: 375625196
+      IconosCajas_Interfaz_Blanco - copia2_3: 775630436
+      IconosCajas_Interfaz_Blanco - copia2_6: 2030720529
+      IconosCajas_Interfaz_Blanco - copia2_10: -1945345423
+      IconosCajas_Interfaz_Blanco - copia2_14: -1808011897
+      IconosCajas_Interfaz_Blanco - copia2_13: 1328975215
+      IconosCajas_Interfaz_Blanco - copia2_11: -1558957513
+      IconosCajas_Interfaz_Blanco - copia2_2: 1873126746
+      IconosCajas_Interfaz_Blanco - copia2_12: -1822447681
+      IconosCajas_Interfaz_Blanco - copia2_15: 153495566
+      IconosCajas_Interfaz_Blanco - copia2_4: -642284620
+      IconosCajas_Interfaz_Blanco - copia2_0: -1534384586
+      IconosCajas_Interfaz_Blanco - copia2_8: -1066616368
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
