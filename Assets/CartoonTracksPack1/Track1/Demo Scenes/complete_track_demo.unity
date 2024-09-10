@@ -7129,10 +7129,70 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7483141007435692176, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361313c7da333414a8c9a9bfe9eef847, type: 2}
+    - target: {fileID: -4493999699000440062, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361313c7da333414a8c9a9bfe9eef847, type: 2}
+    - target: {fileID: -2838221430097592940, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361313c7da333414a8c9a9bfe9eef847, type: 2}
+    - target: {fileID: -2736196772431535212, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361313c7da333414a8c9a9bfe9eef847, type: 2}
+    - target: {fileID: 11599373846099607, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361313c7da333414a8c9a9bfe9eef847, type: 2}
     - target: {fileID: 919132149155446097, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
       propertyPath: m_Name
       value: oval_mod_seats
       objectReference: {fileID: 0}
+    - target: {fileID: 1041093142523733817, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361313c7da333414a8c9a9bfe9eef847, type: 2}
+    - target: {fileID: 1285127375333689683, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361313c7da333414a8c9a9bfe9eef847, type: 2}
+    - target: {fileID: 1396859961473591869, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361313c7da333414a8c9a9bfe9eef847, type: 2}
+    - target: {fileID: 3533251407114147771, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361313c7da333414a8c9a9bfe9eef847, type: 2}
+    - target: {fileID: 5041450680780851320, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361313c7da333414a8c9a9bfe9eef847, type: 2}
+    - target: {fileID: 5552738282543920460, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361313c7da333414a8c9a9bfe9eef847, type: 2}
+    - target: {fileID: 5567103650965429175, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361313c7da333414a8c9a9bfe9eef847, type: 2}
+    - target: {fileID: 6375240740548282972, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361313c7da333414a8c9a9bfe9eef847, type: 2}
+    - target: {fileID: 7643014679914052419, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361313c7da333414a8c9a9bfe9eef847, type: 2}
+    - target: {fileID: 7715660141524633957, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361313c7da333414a8c9a9bfe9eef847, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 293f92aa499df8046aafc2ff7fe540f5, type: 3}
 --- !u!1001 &919436646
