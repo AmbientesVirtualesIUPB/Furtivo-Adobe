@@ -22,7 +22,7 @@ public class IniciarIntefazVehiculo : MonoBehaviour
     { 
         slCarga.value = 0; // Damos un valor inicial a la bateria para posteriormente aumentar
         conducir.descargado = true; // Indicamos que inicialmente no se puede conducir hasta ser encendido
-        InteractuarInterfaz();
+        //InteractuarInterfaz();
     }
 
     /// <summary>
