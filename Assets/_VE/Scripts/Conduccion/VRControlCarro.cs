@@ -21,8 +21,17 @@ public class VRControlCarro : MonoBehaviour
     public bool autoRegularPosicion;
     public Transform offsetCamara;
     public Transform camara;
+    public Transform puntoDeControl;
 
-    void Update()
+	private IEnumerator Start()
+	{
+        yield return new WaitForSeconds(3);
+		if (autoRegularPosicion)
+		{
+            offsetCamara.Translate(puntoDeControl.position - camara.position);
+		}
+	}
+	void Update()
     {
         grabIz = inpIzquierda.grab.action.ReadValue<float>() > 0.5f;
         grabDer = inpDerecha.grab.action.ReadValue<float>() > 0.5f;
