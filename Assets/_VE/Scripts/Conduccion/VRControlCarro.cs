@@ -8,7 +8,7 @@ public class VRControlCarro : MonoBehaviour
     public Inputable inpDerecha;
     public Inputable inpIzquierda;
 
-    public GameObject controlIsquierdo;
+    public GameObject controlIzquierdo;
     public GameObject controlDerecho;
     bool grabIz, grabDer;
 
@@ -17,6 +17,10 @@ public class VRControlCarro : MonoBehaviour
     public Transform pivote;
 
     public Conducir conducir;
+
+    public bool autoRegularPosicion;
+    public Transform offsetCamara;
+    public Transform camara;
 
     void Update()
     {
@@ -38,7 +42,7 @@ public class VRControlCarro : MonoBehaviour
 
 		if (grabIz && inpIzquierda.activable)
 		{
-            controlIsquierdo.SetActive(false);
+            controlIzquierdo.SetActive(false);
             if (inpIzquierda.activable)
             {
                 inpIzquierda.touchInput.buttonPressed = inpIzquierda.accion.action.ReadValue<float>() > 0.5f;
@@ -46,7 +50,7 @@ public class VRControlCarro : MonoBehaviour
         }
         else
         {
-            controlIsquierdo.SetActive(true);
+            controlIzquierdo.SetActive(true);
         }
 
 		if (grabIz && grabDer && inpIzquierda.activable && inpDerecha.activable)
@@ -57,7 +61,7 @@ public class VRControlCarro : MonoBehaviour
 
     void ActualizarRotacionCabrilla()
 	{
-        float d = controlDerecho.transform.position.y - controlIsquierdo.transform.position.y;
+        float d = controlDerecho.transform.position.y - controlIzquierdo.transform.position.y;
         d *= modificadorDistancia;
         d = Mathf.Clamp(d, -1, 1);
         conducir.steeringAxis = -d;
