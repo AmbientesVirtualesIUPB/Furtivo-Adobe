@@ -28,8 +28,9 @@ public class VRControlCarro : MonoBehaviour
         yield return new WaitForSeconds(3);
 		if (autoRegularPosicion)
 		{
-            offsetCamara.Translate(puntoDeControl.position - camara.position);
-		}
+            offsetCamara.position = offsetCamara.position + (puntoDeControl.position - camara.position);
+			
+        }
 	}
 	void Update()
     {
@@ -74,7 +75,9 @@ public class VRControlCarro : MonoBehaviour
         d *= modificadorDistancia;
         d = Mathf.Clamp(d, -1, 1);
         conducir.steeringAxis = -d;
+        print("Paso 1");
         pivote.localEulerAngles = Vector3.forward * d * modificadorAngulo;
+        print("Paso 2: " + pivote.localEulerAngles + "///" + (Vector3.forward * d * modificadorAngulo));
 	}
 
     public void ActivarInput(int cual)

@@ -3109,7 +3109,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_RootOrder
@@ -4906,7 +4906,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 253165539312eb24880f219d8aebb622, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -25.78
+      value: -29.99
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 253165539312eb24880f219d8aebb622, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5005,8 +5005,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idPersonalizada: 1
-  isOwner: 1
-  ID: carro1
+  isOwner: 0
+  ID: carro2
 --- !u!114 &164885613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27274,7 +27274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1144274275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27438,7 +27438,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1146089204
 Transform:
   m_ObjectHideFlags: 0
@@ -27534,6 +27534,7 @@ MonoBehaviour:
   autoRegularPosicion: 0
   offsetCamara: {fileID: 0}
   camara: {fileID: 0}
+  puntoDeControl: {fileID: 0}
 --- !u!1001 &1146794136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34970,7 +34971,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -38424,7 +38425,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1597489954
 Transform:
   m_ObjectHideFlags: 0
@@ -38520,6 +38521,7 @@ MonoBehaviour:
   autoRegularPosicion: 0
   offsetCamara: {fileID: 0}
   camara: {fileID: 0}
+  puntoDeControl: {fileID: 0}
 --- !u!1 &1598853548
 GameObject:
   m_ObjectHideFlags: 0
@@ -39572,7 +39574,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -45579,7 +45581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 253165539312eb24880f219d8aebb622, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 253165539312eb24880f219d8aebb622, type: 3}
       propertyPath: m_LocalPosition.y
@@ -45587,7 +45589,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 253165539312eb24880f219d8aebb622, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -30
+      value: -26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 253165539312eb24880f219d8aebb622, type: 3}
       propertyPath: m_LocalRotation.w
@@ -45809,8 +45811,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   idPersonalizada: 1
-  isOwner: 0
-  ID: carro2
+  isOwner: 1
+  ID: carro1
 --- !u!1 &1912540495
 GameObject:
   m_ObjectHideFlags: 0
@@ -47420,7 +47422,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2004705992
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53237,10 +53239,6 @@ PrefabInstance:
     - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_Name
       value: XR Origin (XR Rig)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_RootOrder
