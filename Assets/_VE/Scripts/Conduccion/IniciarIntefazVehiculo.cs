@@ -1,5 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -22,7 +22,7 @@ public class IniciarIntefazVehiculo : MonoBehaviour
     { 
         slCarga.value = 0; // Damos un valor inicial a la bateria para posteriormente aumentar
         conducir.descargado = true; // Indicamos que inicialmente no se puede conducir hasta ser encendido
-        InteractuarInterfaz();
+        //InteractuarInterfaz();
     }
 
     /// <summary>
@@ -73,10 +73,9 @@ public class IniciarIntefazVehiculo : MonoBehaviour
             slCarga.value = tiempoTranscurrido / duracionTransicion; // Efecto visual en la bateria
 
             // Efecto visual en las imagenes de decoracion
-            for (int i = 3; i < 9; i++)
+            for (int i = 0; i < imagenes.Length; i++)
             {
-                imagenes[i].fillAmount = tiempoTranscurrido / duracionTransicion;
-                if (i == 5) { i += 2; } // Si i=5 le sumamos 2 para aumentar a la siguiente imagen deseada
+                imagenes[i].fillAmount = tiempoTranscurrido / duracionTransicion; // Aumentamos de a poco el fill amount
             }
             yield return null;
         }
@@ -84,7 +83,6 @@ public class IniciarIntefazVehiculo : MonoBehaviour
         for (int i = 3; i < 9; i++)
         {
             imagenes[i].fillAmount = 1f;
-            if (i == 5) { i += 2; } // Si i=5 le sumamos 2 para aumentar a la siguiente imagen deseada
         }
     }
 
@@ -96,10 +94,9 @@ public class IniciarIntefazVehiculo : MonoBehaviour
         while (tiempoTranscurrido < duracionTransicion)
         {
             // Efecto visual en las imagenes de decoracion
-            for (int i = 3; i < 9; i++)
+            for (int i = 0; i < imagenes.Length; i++)
             {
-                imagenes[i].fillAmount = 1 - (tiempoTranscurrido / duracionTransicion);
-                if (i == 5) { i += 2; } // Si i=5 le sumamos 2 para aumentar a la siguiente imagen deseada
+                imagenes[i].fillAmount = 1 - (tiempoTranscurrido / duracionTransicion); // Disminuimos de a poco el fill amount
             }
             yield return null;
         }

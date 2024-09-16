@@ -1,9 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics.Contracts;
-using System.Drawing;
-using System.Runtime.CompilerServices;
-using Unity.VisualScripting;
+
 using UnityEngine;
 
 public class PersonalizacionFurtivo : MonoBehaviour
