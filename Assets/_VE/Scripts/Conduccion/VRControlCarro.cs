@@ -75,9 +75,9 @@ public class VRControlCarro : MonoBehaviour
         d *= modificadorDistancia;
         d = Mathf.Clamp(d, -1, 1);
         conducir.steeringAxis = -d;
-        print("Paso 1");
+        //print("Paso 1");
         pivote.localEulerAngles = Vector3.forward * d * modificadorAngulo;
-        print("Paso 2: " + pivote.localEulerAngles + "///" + (Vector3.forward * d * modificadorAngulo));
+        //print("Paso 2: " + pivote.localEulerAngles + "///" + (Vector3.forward * d * modificadorAngulo));
 	}
 
     public void ActivarInput(int cual)

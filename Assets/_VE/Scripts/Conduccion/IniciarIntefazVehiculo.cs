@@ -17,12 +17,34 @@ public class IniciarIntefazVehiculo : MonoBehaviour
     private bool        estaEncendida; // Para validar el estado del panelo
     private bool        flag; // Bandera
 
+    // Variable provisional para la presentacion de Adobe
+    public bool iniciarPista;
+
     
     void Start()
     { 
+        /*
         slCarga.value = 0; // Damos un valor inicial a la bateria para posteriormente aumentar
         conducir.descargado = true; // Indicamos que inicialmente no se puede conducir hasta ser encendido
         InteractuarInterfaz();
+        */
+    }
+
+    private void Update()
+    {
+        if (iniciarPista)
+        {
+            slCarga.value = 0; // Damos un valor inicial a la bateria para posteriormente aumentar
+            conducir.descargado = true; // Indicamos que inicialmente no se puede conducir hasta ser encendido
+            InteractuarInterfaz();
+            iniciarPista = false;
+        }
+    }
+
+    // Metodo provisional para el evento de Adobe
+    public void ConducirVehiculo()
+    {
+        conducir.descargado = false; // Indicamos que el vehiculo se puede conducir, siempre y cuando tenga carga
     }
 
     /// <summary>
@@ -167,7 +189,9 @@ public class IniciarIntefazVehiculo : MonoBehaviour
 
         // Indicamos que ya se puede conducir
         bateria.encendida = true; // Indicamos que la bateria esta encendida
-        conducir.descargado = false; // Indicamos que el vehiculo se puede conducir, siempre y cuando tenga carga
+
+        // La siguiente linea esta comentada de forma provisional para el evento de Adobe
+        //conducir.descargado = false; // Indicamos que el vehiculo se puede conducir, siempre y cuando tenga carga
 
         if (bateria.cargaActual > 0)
         {
