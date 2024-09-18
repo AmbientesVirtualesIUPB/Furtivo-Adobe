@@ -4983,14 +4983,14 @@ MonoBehaviour:
   sincronizarPosicion: 1
   sincronizarRotacion: 1
   debugEnConsola: 0
-  opcionesAvanzadas: 0
+  opcionesAvanzadas: 1
   posicionObjetivo: {x: 0, y: 0, z: 0}
   rotacionObjetivo: {x: 0, y: 0, z: 0}
-  toleranciaPosicion: 0.2
+  toleranciaPosicion: 0.01
   toleranciaRotacion: 10
   velRotacion: 5
   velTranslacion: 10
-  periodoEsperas: 0.2
+  periodoEsperas: 0.1
   morionID: {fileID: 0}
 --- !u!114 &164885612
 MonoBehaviour:
@@ -16334,6 +16334,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3f3b48614c832940a54b38c6a1724d6, type: 3}
+--- !u!1 &648841889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 648841890}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &648841890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648841889}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.87, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1907881094}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &651040861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38518,10 +38549,10 @@ MonoBehaviour:
   modificadorAngulo: 80
   pivote: {fileID: 1290896444}
   conducir: {fileID: 1907881095}
-  autoRegularPosicion: 0
-  offsetCamara: {fileID: 0}
-  camara: {fileID: 0}
-  puntoDeControl: {fileID: 0}
+  autoRegularPosicion: 1
+  offsetCamara: {fileID: 1777130092}
+  camara: {fileID: 9014170783777442264}
+  puntoDeControl: {fileID: 648841890}
 --- !u!1 &1598853548
 GameObject:
   m_ObjectHideFlags: 0
@@ -42762,6 +42793,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3f3b48614c832940a54b38c6a1724d6, type: 3}
+--- !u!4 &1777130092 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1680501587, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+  m_PrefabInstance: {fileID: 9014170783777442263}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1778533127
 GameObject:
   m_ObjectHideFlags: 0
@@ -45789,14 +45825,14 @@ MonoBehaviour:
   sincronizarPosicion: 1
   sincronizarRotacion: 1
   debugEnConsola: 0
-  opcionesAvanzadas: 0
+  opcionesAvanzadas: 1
   posicionObjetivo: {x: 0, y: 0, z: 0}
   rotacionObjetivo: {x: 0, y: 0, z: 0}
-  toleranciaPosicion: 0.2
+  toleranciaPosicion: 0.01
   toleranciaRotacion: 10
   velRotacion: 5
   velTranslacion: 10
-  periodoEsperas: 0.2
+  periodoEsperas: 0.1
   morionID: {fileID: 0}
 --- !u!114 &1907881100
 MonoBehaviour:
