@@ -71,7 +71,7 @@ public class VRControlCarro : MonoBehaviour
 
     void ActualizarRotacionCabrilla()
 	{
-        float d = controlDerecho.transform.position.y - controlIzquierdo.transform.position.y;
+        float d = controlDerecho.transform.parent.localPosition.y - controlIzquierdo.transform.parent.localPosition.y;
         d *= modificadorDistancia;
         d = Mathf.Clamp(d, -1, 1);
         conducir.steeringAxis = -d;
