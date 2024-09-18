@@ -8,25 +8,29 @@ public class RotacionObjeto : MonoBehaviour
     public float velocidadRotacion = 50f;
     public bool rotarEnZ, rotarEnY, rotarEnX;
 
+    Vector3 p1, p2;
+    public float velocidad;
+	private void Start()
+	{
+        p1 = transform.position;
+        p2 = p1;
+        InvokeRepeating("ActualizarVelocidad", 0.5f, 0.5f);
+	}
+
+    void ActualizarVelocidad()
+	{
+        velocidad = (p1 - p2).sqrMagnitude;
+        p1 = p2;
+        p2 = transform.position;
+    }
+
     /// <summary>
     /// Metodo invocado frame a frame
     /// </summary>
     void Update()
     {
-        if (rotarEnZ)
-        {
-            // Rotar el objeto que tenga el script alrededor del eje Z
-            transform.Rotate(0, 0, velocidadRotacion * Time.deltaTime);
-        }
-        else if (rotarEnY)
-        {
-            // Rotar el objeto que tenga el script alrededor del eje Y
-            transform.Rotate(0, velocidadRotacion * Time.deltaTime, 0);
-        }
-        else if (rotarEnX)
-        {
-            // Rotar el objeto que tenga el script alrededor del eje X
-            transform.Rotate(velocidadRotacion * Time.deltaTime, 0, 0);
-        }
+
+        transform.Rotate(velocidadRotacion * velocidad * Time.deltaTime,0,0);
+        
     }
 }
