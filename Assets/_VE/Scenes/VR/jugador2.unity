@@ -9300,7 +9300,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &780307467
 Transform:
   m_ObjectHideFlags: 0
@@ -9363,7 +9363,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a163121e0504c3c40bf0093351ada804, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9959,7 +9959,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &843853331
 Transform:
   m_ObjectHideFlags: 0
@@ -10022,7 +10022,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a163121e0504c3c40bf0093351ada804, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18242,10 +18242,18 @@ PrefabInstance:
       propertyPath: bateria
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 666544721, guid: 33789acd6bd51ed49baf77aa80cf8be8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 666544725, guid: 33789acd6bd51ed49baf77aa80cf8be8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a163121e0504c3c40bf0093351ada804, type: 2}
+    - target: {fileID: 1380969678, guid: 33789acd6bd51ed49baf77aa80cf8be8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1380969682, guid: 33789acd6bd51ed49baf77aa80cf8be8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -18322,6 +18330,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: FUTIVO-VR-AMARILLO
       objectReference: {fileID: 0}
+    - target: {fileID: 4154233545993514091, guid: 33789acd6bd51ed49baf77aa80cf8be8, type: 3}
+      propertyPath: m_TagString
+      value: coche
+      objectReference: {fileID: 0}
+    - target: {fileID: 8443826001519058326, guid: 33789acd6bd51ed49baf77aa80cf8be8, type: 3}
+      propertyPath: velRotacion
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8443826001519058326, guid: 33789acd6bd51ed49baf77aa80cf8be8, type: 3}
+      propertyPath: periodoEsperas
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8443826001519058326, guid: 33789acd6bd51ed49baf77aa80cf8be8, type: 3}
+      propertyPath: velTranslacion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8443826001519058326, guid: 33789acd6bd51ed49baf77aa80cf8be8, type: 3}
       propertyPath: opcionesAvanzadas
       value: 1
@@ -18337,6 +18361,14 @@ PrefabInstance:
     - target: {fileID: 8443826001519058326, guid: 33789acd6bd51ed49baf77aa80cf8be8, type: 3}
       propertyPath: rotacionObjetivo.y
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8443826001519058326, guid: 33789acd6bd51ed49baf77aa80cf8be8, type: 3}
+      propertyPath: toleranciaPosicion
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8443826001519058326, guid: 33789acd6bd51ed49baf77aa80cf8be8, type: 3}
+      propertyPath: toleranciaRotacion
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33789acd6bd51ed49baf77aa80cf8be8, type: 3}
@@ -21652,7 +21684,7 @@ MonoBehaviour:
     m_NumColorKeys: 5
     m_NumAlphaKeys: 2
   cargaActual: 0
-  capacidadMaxima: 70
+  capacidadMaxima: 2000
   tasaDescarga: 0.5
   encendida: 0
 --- !u!114 &1881671586
@@ -21783,14 +21815,14 @@ MonoBehaviour:
   sincronizarPosicion: 1
   sincronizarRotacion: 1
   debugEnConsola: 0
-  opcionesAvanzadas: 0
-  posicionObjetivo: {x: 0, y: 0, z: 0}
-  rotacionObjetivo: {x: 0, y: 0, z: 0}
-  toleranciaPosicion: 0.2
-  toleranciaRotacion: 10
+  opcionesAvanzadas: 1
+  posicionObjetivo: {x: 24, y: 0, z: -31}
+  rotacionObjetivo: {x: 0, y: -90, z: 0}
+  toleranciaPosicion: 0.05
+  toleranciaRotacion: 5
   velRotacion: 5
-  velTranslacion: 10
-  periodoEsperas: 0.2
+  velTranslacion: 1
+  periodoEsperas: 0.1
   morionID: {fileID: 0}
 --- !u!114 &1881671590
 MonoBehaviour:
@@ -23376,7 +23408,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4952766878754978122, guid: 92d16b74e53b0cd4884d701022bd05b5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5688059675509605786, guid: 92d16b74e53b0cd4884d701022bd05b5, type: 3}
       propertyPath: m_RootOrder
