@@ -27534,6 +27534,7 @@ MonoBehaviour:
   autoRegularPosicion: 0
   offsetCamara: {fileID: 0}
   camara: {fileID: 0}
+  puntoDeControl: {fileID: 0}
 --- !u!1001 &1146794136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38520,6 +38521,7 @@ MonoBehaviour:
   autoRegularPosicion: 0
   offsetCamara: {fileID: 0}
   camara: {fileID: 0}
+  puntoDeControl: {fileID: 0}
 --- !u!1 &1598853548
 GameObject:
   m_ObjectHideFlags: 0
@@ -45769,7 +45771,7 @@ MonoBehaviour:
     m_NumColorKeys: 5
     m_NumAlphaKeys: 2
   cargaActual: 0
-  capacidadMaxima: 10
+  capacidadMaxima: 50
   tasaDescarga: 0.5
   encendida: 0
 --- !u!114 &1907881099
@@ -45787,14 +45789,14 @@ MonoBehaviour:
   sincronizarPosicion: 1
   sincronizarRotacion: 1
   debugEnConsola: 0
-  opcionesAvanzadas: 0
+  opcionesAvanzadas: 1
   posicionObjetivo: {x: 0, y: 0, z: 0}
   rotacionObjetivo: {x: 0, y: 0, z: 0}
-  toleranciaPosicion: 0.2
+  toleranciaPosicion: 0.01
   toleranciaRotacion: 10
   velRotacion: 5
   velTranslacion: 10
-  periodoEsperas: 0.2
+  periodoEsperas: 0.1
   morionID: {fileID: 0}
 --- !u!114 &1907881100
 MonoBehaviour:
