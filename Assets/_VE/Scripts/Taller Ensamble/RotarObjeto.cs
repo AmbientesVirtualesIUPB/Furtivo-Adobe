@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RotacionObjeto : MonoBehaviour
+public class RotarObjeto : MonoBehaviour
 {
     // Velocidad de rotación en grados por segundo
     public float velocidadRotacion = 50f;
