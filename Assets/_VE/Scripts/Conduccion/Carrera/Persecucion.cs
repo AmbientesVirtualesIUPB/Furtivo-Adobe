@@ -32,6 +32,7 @@ public class Persecucion : MonoBehaviour
             {
                 policia.SetDestination(objetoPerseguid2.position);
                 policia.speed = velocidadMin; // Sino dejamos la velocidad estandar = 10
+                //tengo una pista de carreras, en la cual tengo un vehiculo y deseo que este se mueva automaticamente por ella, como lo hago en unity?
             }
         }
     }

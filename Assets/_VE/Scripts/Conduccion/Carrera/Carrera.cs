@@ -10,10 +10,9 @@ public class Carrera : MonoBehaviour
     public IniciarIntefazVehiculo interfazVehiculo;
     public AudioSource sonidoArranque; // Sonido para indicar el inicio de la carrera
     public Conducir conducir;
-    public Persecucion persecucion;
 
-
-    void Start()
+    [ContextMenu("Iniciar")]
+    public void Iniciar()
     {
         // Asegúrate de tener una referencia al Renderer
         if (interfazVehiculo == null || textoArranque == null || luces == null)
@@ -28,10 +27,6 @@ public class Carrera : MonoBehaviour
 
     public IEnumerator IniciarCarrera()
     {
-
-        yield return new WaitForSeconds(3f);
-
-        interfazVehiculo.iniciarPista = true;
 
         yield return new WaitForSeconds(2f);
 
@@ -56,7 +51,8 @@ public class Carrera : MonoBehaviour
         luces[3].gameObject.SetActive(true);
         textoArranque.color = Color.green;
         textoArranque.text = "GO";
-        interfazVehiculo.ConducirVehiculo();
+        interfazVehiculo.iniciarPista = true;
+        //interfazVehiculo.ConducirVehiculo();
 
         yield return new WaitForSeconds(1f);
         textoArranque.gameObject.SetActive(false);
@@ -68,7 +64,6 @@ public class Carrera : MonoBehaviour
     {
         textoFin.gameObject.SetActive(true);
         conducir.enabled = false;
-        persecucion.enabled = true;
         Debug.Log("Llegaste a la meta");
     }
 }
