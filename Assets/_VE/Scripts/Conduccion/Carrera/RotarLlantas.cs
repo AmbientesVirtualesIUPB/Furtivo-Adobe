@@ -5,7 +5,6 @@ using UnityEngine;
 public class RotarLlantas : MonoBehaviour
 {
     
-
     // Velocidad de rotación en grados por segundo
     public float velocidadRotacion = 50f;
     public bool rotarEnZ, rotarEnY, rotarEnX;
@@ -16,7 +15,7 @@ public class RotarLlantas : MonoBehaviour
     {
         p1 = transform.position;
         p2 = p1;
-        InvokeRepeating("ActualizarVelocidad", 0.5f, 0.5f);
+        InvokeRepeating("ActualizarVelocidad", 0.1f, 0.5f);
     }
 
     void ActualizarVelocidad()
@@ -31,8 +30,9 @@ public class RotarLlantas : MonoBehaviour
     /// </summary>
     void Update()
     {
-
         transform.Rotate(velocidadRotacion * velocidad * Time.deltaTime, 0, 0);
-
     }
+    
+    
+
 }

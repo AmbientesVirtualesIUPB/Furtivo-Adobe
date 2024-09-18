@@ -4102,6 +4102,29 @@ Transform:
   m_Father: {fileID: 647161636}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &337036177 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4154233545993514091, guid: 7f22d19f968845a48bb37cf4f72eb255, type: 3}
+  m_PrefabInstance: {fileID: 3848225516413256651}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &337036182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337036177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e57fe1f633a6304bafc10f6901941e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frontWheels:
+  - {fileID: 987841972}
+  - {fileID: 527618884}
+  rearWheels: {fileID: 525320155}
+  wheelRadius: 0.35
+  speed: 10
 --- !u!1 &337253370
 GameObject:
   m_ObjectHideFlags: 0
@@ -6633,6 +6656,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 523870057}
   m_Mesh: {fileID: -3246118558599293521, guid: dec6c7846fe5ea34787eb84291b302a8, type: 3}
+--- !u!4 &525320155 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2262389112751300149, guid: 7f22d19f968845a48bb37cf4f72eb255, type: 3}
+  m_PrefabInstance: {fileID: 3848225516413256651}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &527618884 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2754124334589930895, guid: 7f22d19f968845a48bb37cf4f72eb255, type: 3}
+  m_PrefabInstance: {fileID: 3848225516413256651}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &529123177
 GameObject:
   m_ObjectHideFlags: 0
@@ -12177,6 +12210,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af2e373bcbe26f24bb3bd2cdc6f68405, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &987841972 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3504408095258555593, guid: 7f22d19f968845a48bb37cf4f72eb255, type: 3}
+  m_PrefabInstance: {fileID: 3848225516413256651}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &994008836
 GameObject:
   m_ObjectHideFlags: 0
@@ -27119,18 +27157,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 160873700, guid: 7f22d19f968845a48bb37cf4f72eb255, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 606813161, guid: 7f22d19f968845a48bb37cf4f72eb255, type: 3}
       propertyPath: sonidoInterfaz
       value: 
       objectReference: {fileID: 212670707}
-    - target: {fileID: 1804686071, guid: 7f22d19f968845a48bb37cf4f72eb255, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3669622029029750481, guid: 7f22d19f968845a48bb37cf4f72eb255, type: 3}
       propertyPath: m_RootOrder
       value: 4
