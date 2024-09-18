@@ -41,12 +41,6 @@ public class IniciarIntefazVehiculo : MonoBehaviour
         }
     }
 
-    // Metodo provisional para el evento de Adobe
-    public void ConducirVehiculo()
-    {
-        conducir.descargado = false; // Indicamos que el vehiculo se puede conducir, siempre y cuando tenga carga
-    }
-
     /// <summary>
     /// Metodo invocado desde el boton BtnEncender en la escena
     /// </summary>
@@ -191,7 +185,7 @@ public class IniciarIntefazVehiculo : MonoBehaviour
         bateria.encendida = true; // Indicamos que la bateria esta encendida
 
         // La siguiente linea esta comentada de forma provisional para el evento de Adobe
-        //conducir.descargado = false; // Indicamos que el vehiculo se puede conducir, siempre y cuando tenga carga
+        conducir.descargado = false; // Indicamos que el vehiculo se puede conducir, siempre y cuando tenga carga
 
         if (bateria.cargaActual > 0)
         {
