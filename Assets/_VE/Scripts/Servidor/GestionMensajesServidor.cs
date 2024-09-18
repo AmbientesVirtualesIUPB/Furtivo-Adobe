@@ -31,6 +31,9 @@ public class GestionMensajesServidor : MonoBehaviour
 			case "AC00":
 				AC00(msj);
 				break;
+			case "AC01":
+				AC01(msj);
+				break;
 			default:
 				break;
 		}
@@ -57,12 +60,16 @@ public class GestionMensajesServidor : MonoBehaviour
 	}
 	public void AC00(string msj)
 	{
+
+	}
+	public void AC01(string msj)
+	{
 		carrera.Iniciar();
 	}
 
 	public void IniciarCarrera()
 	{
-		EnviarMensaje("AC00m:null");
+		EnviarMensaje("AC01m:null");
 	}
 
 	public void EnviarActualizacionTransform(MorionID morionID, Transform trans) 
