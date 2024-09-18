@@ -3242,7 +3242,6 @@ MonoBehaviour:
   rotarEnZ: 1
   rotarEnY: 0
   rotarEnX: 0
-  velocidad: 0
 --- !u!114 &251344574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6699,7 +6698,6 @@ MonoBehaviour:
   rotarEnZ: 1
   rotarEnY: 0
   rotarEnX: 0
-  velocidad: 0
 --- !u!222 &529123180
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8083,7 +8081,6 @@ MonoBehaviour:
   rotarEnZ: 1
   rotarEnY: 0
   rotarEnX: 0
-  velocidad: 0
 --- !u!222 &660295691
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12584,7 +12581,6 @@ MonoBehaviour:
   rotarEnZ: 1
   rotarEnY: 0
   rotarEnX: 0
-  velocidad: 0
 --- !u!114 &1005562695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18688,7 +18684,6 @@ MonoBehaviour:
   rotarEnZ: 1
   rotarEnY: 0
   rotarEnX: 0
-  velocidad: 0
 --- !u!222 &1538822337
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21376,7 +21371,6 @@ MonoBehaviour:
   rotarEnZ: 1
   rotarEnY: 0
   rotarEnX: 0
-  velocidad: 0
 --- !u!222 &1771713495
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23562,7 +23556,6 @@ MonoBehaviour:
   rotarEnZ: 1
   rotarEnY: 0
   rotarEnX: 0
-  velocidad: 0
 --- !u!222 &1963599057
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27126,10 +27119,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 160873700, guid: 7f22d19f968845a48bb37cf4f72eb255, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 606813161, guid: 7f22d19f968845a48bb37cf4f72eb255, type: 3}
       propertyPath: sonidoInterfaz
       value: 
       objectReference: {fileID: 212670707}
+    - target: {fileID: 1804686071, guid: 7f22d19f968845a48bb37cf4f72eb255, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3669622029029750481, guid: 7f22d19f968845a48bb37cf4f72eb255, type: 3}
       propertyPath: m_RootOrder
       value: 4
