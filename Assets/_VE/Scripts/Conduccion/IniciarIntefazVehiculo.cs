@@ -22,12 +22,13 @@ public class IniciarIntefazVehiculo : MonoBehaviour
 
     
     void Start()
-    { 
+    {
         /*
         slCarga.value = 0; // Damos un valor inicial a la bateria para posteriormente aumentar
-        conducir.descargado = true; // Indicamos que inicialmente no se puede conducir hasta ser encendido
+        
         InteractuarInterfaz();
         */
+        conducir.descargado = true; // Indicamos que inicialmente no se puede conducir hasta ser encendido
     }
 
     private void Update()
@@ -35,7 +36,6 @@ public class IniciarIntefazVehiculo : MonoBehaviour
         if (iniciarPista)
         {
             slCarga.value = 0; // Damos un valor inicial a la bateria para posteriormente aumentar
-            conducir.descargado = true; // Indicamos que inicialmente no se puede conducir hasta ser encendido
             InteractuarInterfaz();
             iniciarPista = false;
         }

@@ -372,6 +372,12 @@ public class Conducir : MonoBehaviour
         AnimateWheelMeshes();
     }
 
+    public void RestaurarPosicion()
+    {
+        carRigidbody.MovePosition(ManagerPuntoControl.Instance.ObtenerPuntoCercano(transform.position).position);
+        carRigidbody.MoveRotation(ManagerPuntoControl.Instance.ObtenerPuntoCercano(transform.position).rotation);
+    }
+
     // Este método convierte los datos de velocidad del automóvil de flotante a cadena y luego establece el texto de la interfaz de usuario carSpeedText con este valor
     public void CarSpeedUI()
     {
