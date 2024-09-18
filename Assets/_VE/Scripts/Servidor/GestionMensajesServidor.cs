@@ -8,6 +8,7 @@ public class GestionMensajesServidor : MonoBehaviour
     public static GestionMensajesServidor singeton;
 	public bool debugEnConsola = false;
 	public List<MorionTransform> morionTransforms = new List<MorionTransform>();
+	public Carrera carrera;
 
 	private void Awake()
 	{
@@ -56,7 +57,12 @@ public class GestionMensajesServidor : MonoBehaviour
 	}
 	public void AC00(string msj)
 	{
+		carrera.Iniciar();
+	}
 
+	public void IniciarCarrera()
+	{
+		EnviarMensaje("AC00m:null");
 	}
 
 	public void EnviarActualizacionTransform(MorionID morionID, Transform trans) 
