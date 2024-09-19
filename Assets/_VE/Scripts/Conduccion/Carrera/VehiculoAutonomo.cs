@@ -18,14 +18,14 @@ public class VehiculoAutonomo : MonoBehaviour
 
     void Update()
     {
-        // Si hay waypoints disponibles
+        // Si no hay waypoints disponibles para la ejecucion
         if (puntosReferencias.Length == 0)
             return;
 
         // Obtener el waypoint objetivo
         Transform targetWaypoint = puntosReferencias[currentWaypointIndex];
         Vector3 direction = targetWaypoint.position - transform.position;
-        direction.y = 0;  // Opcional: evitar que el vehículo cambie de altura si la pista es plana
+        //direction.y = 0;  // Opcional: evitar que el vehículo cambie de altura si la pista es plana
 
         // Calcular la distancia al waypoint
         float distanceToWaypoint = direction.magnitude;

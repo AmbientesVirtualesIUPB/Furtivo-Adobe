@@ -372,8 +372,12 @@ public class Conducir : MonoBehaviour
         AnimateWheelMeshes();
     }
 
+    /// <summary>
+    /// Metodo incovado desde el boton VR Posicionador dentro del furtivo, para enviar nuestra posicion y rotacion
+    /// </summary>
     public void RestaurarPosicion()
     {
+        // Posicionamos a nuestro vehiculo y su rotacion en el punto de checkPoint mas cercano
         carRigidbody.MovePosition(ManagerPuntoControl.Instance.ObtenerPuntoCercano(transform.position).position);
         carRigidbody.MoveRotation(ManagerPuntoControl.Instance.ObtenerPuntoCercano(transform.position).rotation);
     }

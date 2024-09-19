@@ -4,35 +4,46 @@ using UnityEngine;
 
 public class RotarLlantas : MonoBehaviour
 {
-    
-    // Velocidad de rotación en grados por segundo
-    public float velocidadRotacion = 50f;
-    public bool rotarEnZ, rotarEnY, rotarEnX;
+    public Transform[] llantasDelanteras; // Referencia a las llantas delanteras
+    public Transform llantaTrasera;  // Referencia a la llantas traseras
 
-    Vector3 p1, p2;
-    public float velocidad;
-    private void Start()
+    private Vector3 posInicial;
+
+    void Start()
     {
-        p1 = transform.position;
-        p2 = p1;
-        InvokeRepeating("ActualizarVelocidad", 0.1f, 0.5f);
+        posInicial = transform.position; // Guardamos la posición inicial del vehículo
     }
 
-    void ActualizarVelocidad()
-    {
-        velocidad = (p1 - p2).sqrMagnitude;
-        p1 = p2;
-        p2 = transform.position;
-    }
-
-    /// <summary>
-    /// Metodo invocado frame a frame
-    /// </summary>
     void Update()
     {
-        transform.Rotate(velocidadRotacion * velocidad * Time.deltaTime, 0, 0);
-    }
-    
-    
+        if (llantasDelanteras != null && llantaTrasera != null)
+        {
+            // Calcular la distancia que ha recorrido el vehículo desde el último frame y tomamos la raíz cuadrada de `sqrMagnitude` 
+            float distanceTravelled = Mathf.Sqrt((transform.position - posInicial).sqrMagnitude);
 
+            // Determinar si el vehículo está yendo en reversa comparando posiciones Vector.Dot calcula el punto de direccion entre dos vectores
+            float direccion = Vector3.Dot(transform.forward, transform.position - posInicial);
+
+            // Si la dirección es menor que cero, le asigno -1, sino le asigno 1
+            float sentidoRotacion = direccion < 0 ? -1 : 1;
+
+            // Guardar la nueva posición para el próximo cálculo
+            posInicial = transform.position;
+
+            // Calcular la rotación de la llanta en función de la distancia recorrida 
+            float rotacionLlanta = (distanceTravelled * 360f) * sentidoRotacion ;
+
+            // Rotar las llantas delanteras y trasera alrededor de su eje X
+            foreach (Transform llanta in llantasDelanteras)
+            {
+                llanta.Rotate(Vector3.right, rotacionLlanta);
+            }
+
+            llantaTrasera.Rotate(Vector3.right, rotacionLlanta);
+        }
+        else
+        {
+            Debug.LogError("Falta inicializar componentes");
+        }
+    }
 }

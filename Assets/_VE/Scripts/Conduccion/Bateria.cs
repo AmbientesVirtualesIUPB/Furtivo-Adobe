@@ -19,7 +19,7 @@ public class Bateria : MonoBehaviour
     void Start()
     {
         cargaActual = capacidadMaxima; // Asignamos la carga actual de la bateria
-        imgFill.color = colores.Evaluate(1); // Asignamos un color base a la bateria, en este caso verde azul
+        //imgFill.color = colores.Evaluate(1); // Asignamos un color base a la bateria, en este caso verde azul
     }
 
     // Update is called once per frame
