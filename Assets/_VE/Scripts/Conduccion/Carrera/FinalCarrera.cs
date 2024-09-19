@@ -7,6 +7,7 @@ public class FinalCarrera : MonoBehaviour
     public Transform punto;  // Primer punto de destino
     public Carrera carrera;
     public float tiempoEspera = 12f;
+    public GameObject proyectiles;
 
     void Start()
     {
@@ -31,5 +32,10 @@ public class FinalCarrera : MonoBehaviour
 
         // Alinear la rotación con el destino
         transform.rotation = punto.rotation;
+    }
+
+    public void DispararProyectiles()
+    {
+        proyectiles.gameObject.SetActive(true);
     }
 }
