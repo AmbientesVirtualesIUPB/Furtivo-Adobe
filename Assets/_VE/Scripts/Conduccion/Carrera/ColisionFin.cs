@@ -21,6 +21,7 @@ public class ColisionFin : MonoBehaviour
                 manipularTextos.CambiarTextos();
                 rotarLlantas.enabled = true;
                 finalCarrera.enabled = true;
+                finalCarrera.DispararProyectiles();
             }        
         }
     }
