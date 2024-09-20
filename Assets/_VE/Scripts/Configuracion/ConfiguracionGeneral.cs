@@ -101,6 +101,12 @@ public class ConfiguracionGeneral : ScriptableObject
     {
         return PlayerPrefs.GetString("ip", ip);
     }
+
+    public void CambiarIp(string nuevaIp)
+    {
+        ip = nuevaIp;
+        PlayerPrefs.SetString("ip", ip);
+    }
 }
 
 /// <summary>
