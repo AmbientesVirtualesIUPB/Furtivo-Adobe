@@ -30660,6 +30660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PuntosProyectiles
       objectReference: {fileID: 0}
+    - target: {fileID: 6344932199655828093, guid: 26a7fb64772d5bd478d9836f7b5bca35, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6471157404167217583, guid: 26a7fb64772d5bd478d9836f7b5bca35, type: 3}
       propertyPath: CollisionModule.m_Planes.Array.data[0]
       value: 
