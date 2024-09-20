@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_VE/Scenes/VR/Inicio.unity
+    guid: fe42dba6ba1bc9d4fbeab7937f434799
+  - enabled: 1
+    path: Assets/_VE/Scenes/VR/jugador1.unity
+    guid: 8d91c53f10faf1945848589bb15dd4e7
+  - enabled: 1
+    path: Assets/_VE/Scenes/VR/jugador2.unity
+    guid: dddea304251b99e418ba3b7f0f632f92
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6def3476d9d3024418e45be100a8e84d, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 33095af913370d54abcde2d83e22cbba, type: 2}
