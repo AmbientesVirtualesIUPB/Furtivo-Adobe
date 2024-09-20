@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FinalCarrera : MonoBehaviour
 {
@@ -23,6 +24,10 @@ public class FinalCarrera : MonoBehaviour
         yield return new WaitForSeconds(tiempoEspera);
         AlinearConPunto();
         carrera.FinalizarJuegoCamaras();
+
+        yield return new WaitForSeconds(30f);
+        // Carga la escena activa nuevamente
+        SceneManager.LoadScene("inicio");
     }
 
     void AlinearConPunto()
